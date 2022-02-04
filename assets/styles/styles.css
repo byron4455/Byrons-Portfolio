@@ -103,3 +103,8 @@ section p {
 button {
   size: 20px;
 }
+
+#about-me-pic {
+  height: 200px;
+  width: 200px;
+}
