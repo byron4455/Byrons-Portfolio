@@ -79,9 +79,10 @@ section h2 {
 section p {
   font-size: 20px;
 }
-.bio-container {
+#bio-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   width: 400px;
   align-items: flex-start;
 }
@@ -92,14 +93,19 @@ section p {
   justify-content: space-between;
   align-items: center;
 }
-
-/* article img {
-  height: 100px;
-  width: 100px;
-} */
 .contact {
   padding: 15px;
 }
 button {
   size: 20px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+#conatiner1 {
+  flex-grow: 1;
+    margin: 20px;
+  background: #e6f0f5;
+  color: #161510;
 }
